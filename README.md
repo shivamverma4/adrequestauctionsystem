@@ -24,7 +24,7 @@ This is the main coordinator responsible for carrying out the bid rounds. At the
 # Running this Project
 
  1. Install Golang and Docker on your system
- 2. Clone this repo using `git clone https://github.com/shivamverma4/AdRequestAuctionSystem`
+ 2. Clone this repo using `git clone https://github.com/shivamverma4/adrequestauctionsystem`
  3. Keep your Docker running, and create a docker image using command `docker build -t adrequestauctionsystem .`
  4. Now run this docker image with the docker IMAGE_ID, using command `docker run -d -p 8081:8081 xxxxxxxxxxxxx`
  5. Now the project is UP and running on port `8081`
