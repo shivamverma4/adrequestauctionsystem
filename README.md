@@ -20,3 +20,12 @@ This is the main coordinator responsible for carrying out the bid rounds. At the
 - (i) Bid endpoint - This is where ad requests will be coming in.
 - (ii) List endpoint - This endpoint will give registered endpoints.
 - (iii) Registration Endpoint - This endpoint will be used to bidder to register itself to the bidder once it’s online.
+
+# Running this Project
+
+ 1. Install Golang and Docker on your system
+ 2. Clone this repo using `git clone https://github.com/shivamverma4/AdRequestAuctionSystem`
+ 3. Keep your Docker running, and create a docker image using command `docker build -t adrequestauctionsystem .`
+ 4. Now run this docker image with the docker IMAGE_ID, using command `docker run -d -p 8081:8081 xxxxxxxxxxxxx`
+ 5. Now the project is UP and running on port `8081`
+ 6. Now you can create `auction`, add register `bidders` and then start the bidding round with the bidders where the bidder with maximum bid wins the race
